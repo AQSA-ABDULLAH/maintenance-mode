@@ -55,7 +55,7 @@ const MaintenanceScreen = ({
           <img
             src={mainImage}
             alt="Main"
-            className={`w-[120px] 2xl:w-[150px] h-[40px] object-contain transition-opacity duration-700 ${
+            className={`w-[120px] 2xl:w-[150px] object-contain transition-opacity duration-700 ${
               step >= 3 ? "opacity-100" : "opacity-0"
             }`}
           />
@@ -68,7 +68,7 @@ const MaintenanceScreen = ({
           <img
             src={subImage}
             alt="Sub"
-            className={`w-[120px] 2xl:w-[150px] h-[14px] object-contain transition-opacity duration-700 ${
+            className={`w-[120px] 2xl:w-[150px] object-contain transition-opacity duration-700 ${
               step >= 4 ? "opacity-100" : "opacity-0"
             }`}
           />
