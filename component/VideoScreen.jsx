@@ -100,7 +100,7 @@ const VideoScreen = ({
         )}
 
         {subParagraph && (
-          <p className="text-[8px] md:text-[10px] 2xl:text-[16px] pt-[8px] md:pt-[15px] 2xl:pt-[40px] uppercase tracking-[1.3px] md:tracking-[2px]">
+          <p className="text-[9px] md:text-[10px] 2xl:text-[16px] pt-[8px] md:pt-[15px] 2xl:pt-[40px] uppercase tracking-[1.3px] md:tracking-[2px]">
             {step >= 6 ? typedSubParagraph : ""}
           </p>
         )}
