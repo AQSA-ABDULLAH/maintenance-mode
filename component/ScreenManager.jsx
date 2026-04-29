@@ -44,7 +44,7 @@ const ScreenManager = () => {
 
       footer:
         "COPYRIGHT 2026 ZIMO GROUP LIMITED. ALL RIGHTS RESERVED.",
-      footerImage: "/ZIMO OFFICIAL LICENSED.svg",
+      footerImage: "/ZIMO OFFICIAL LICENSED GB B.svg",
     },
     {
       type: "text",
@@ -58,7 +58,7 @@ const ScreenManager = () => {
 
       footer:
         "COPYRIGHT 2026 ZIMO GROUP LIMITED. ALL RIGHTS RESERVED.",
-      footerImage: "/ZIMO OFFICIAL LICENSED W.svg",
+      footerImage: "/ZIMO OFFICIAL LICENSED GB W.svg",
     },
   ];
 
