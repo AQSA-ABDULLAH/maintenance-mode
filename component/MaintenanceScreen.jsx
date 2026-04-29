@@ -49,14 +49,13 @@ const MaintenanceScreen = ({
 
   return (
     <div className="relative w-full h-full text-center">
-
       {/* 🔥 Main Image - CENTER */}
       {mainImage && (
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           <img
             src={mainImage}
             alt="Main"
-            className={`w-[180px] 2xl:w-[238px] h-[40px] object-contain transition-opacity duration-700 ${
+            className={`w-[120px] 2xl:w-[150px] h-[40px] object-contain transition-opacity duration-700 ${
               step >= 3 ? "opacity-100" : "opacity-0"
             }`}
           />
@@ -64,26 +63,27 @@ const MaintenanceScreen = ({
       )}
 
       {/* Content BELOW center */}
-      <div className="absolute top-[53%] pt-[30px] 2xl:pt-[60px] left-1/2 -translate-x-1/2 flex flex-col items-center">
-
+      <div className="absolute top-[53%] pt-[4px] md:pt-[10px] 2xl:pt-[40px] left-1/2 -translate-x-1/2 flex flex-col items-center">
         {subImage && (
           <img
             src={subImage}
             alt="Sub"
-            className={`w-[180px] 2xl:w-[238px] h-[14px] object-contain transition-opacity duration-700 ${
+            className={`w-[120px] 2xl:w-[150px] h-[14px] object-contain transition-opacity duration-700 ${
               step >= 4 ? "opacity-100" : "opacity-0"
             }`}
           />
         )}
 
+        {/* Paragraph */}
         {paragraph && (
-          <p className="text-[11px] 2xl:text-[18px] pt-[40px] 2xl:pt-[60px] uppercase tracking-[2px] w-full">
+          <p className="text-[9px] md:text-[10px] 2xl:text-[16px] pt-[30px] 2xl:pt-[60px] uppercase tracking-[1.3px] md:tracking-[2px] w-full whitespace-nowrap">
             {step >= 5 ? typedParagraph : ""}
           </p>
         )}
 
+        {/* Sub Paragraph */}
         {subParagraph && (
-          <p className="text-[11px] 2xl:text-[18px] pt-[10px] 2xl:pt-[20px] uppercase tracking-[2px] opacity-80">
+          <p className="text-[9px] md:text-[10px] 2xl:text-[16px] pt-[10px] 2xl:pt-[20px] uppercase tracking-[1.3px] md:tracking-[2px] whitespace-nowrap">
             {step >= 6 ? typedSubParagraph : ""}
           </p>
         )}
@@ -91,12 +91,11 @@ const MaintenanceScreen = ({
 
       {/* Footer */}
       <div className="absolute bottom-0 p-[10px] 2xl:py-[20px] w-full flex flex-col justify-between items-center space-y-[30px] 2xl:space-y-[60px]">
-
         {footerImage && (
           <img
             src={footerImage}
             alt="Footer Logo"
-            className={`h-[35px] 2xl:h-[60px] w-auto object-contain transition-opacity duration-700 ${
+            className={`h-[30px] 2xl:h-[40px] w-auto object-contain transition-opacity duration-700 ${
               step >= 2 ? "opacity-100" : "opacity-0"
             }`}
           />
@@ -104,7 +103,7 @@ const MaintenanceScreen = ({
 
         {footer && (
           <p
-            className={`text-[8px] tracking-[1px] transition-opacity duration-700 ${
+            className={`text-[6px] md:text-[8px] tracking-[1px] transition-opacity duration-700 ${
               step >= 1 ? "opacity-100" : "opacity-0"
             }`}
           >
