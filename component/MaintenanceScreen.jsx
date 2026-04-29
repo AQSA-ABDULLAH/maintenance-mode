@@ -77,7 +77,7 @@ const MaintenanceScreen = ({
         )}
 
         {paragraph && (
-          <p className="text-[11px] 2xl:text-[18px] pt-[40px] 2xl:pt-[60px] uppercase tracking-[2px]">
+          <p className="text-[11px] 2xl:text-[18px] pt-[40px] 2xl:pt-[60px] uppercase tracking-[2px] w-full">
             {step >= 5 ? typedParagraph : ""}
           </p>
         )}
