@@ -27,7 +27,7 @@ const ScreenManager = () => {
       mainImage: "/ZIMO Logo 26 B.svg",
       subImage: "/Maintenance Mode B.svg",
        paragraph: "Scheduled maintenance is currently in progress.",
-      subParagraph: "Sorry for the inconvenience.",
+      subParagraph: "THANK YOU FOR YOUR PATIENCE.",
 
       footer:
         "COPYRIGHT 2026 ZIMO GROUP LIMITED. ALL RIGHTS RESERVED.",
@@ -37,17 +37,28 @@ const ScreenManager = () => {
       type: "text",
       bg: "bg-white",
       text: "text-black",
-      footer: "ATS",
-      mainImage: "/ZIMO OFFICIAL LICENSED.svg",
-      subImage: "/logo-sub.svg",
+      mainImage: "/ZIMO Logo 26 B.svg",
+      subImage: "/Maintenance Mode B.svg",
+       paragraph: "Scheduled maintenance is currently in progress.",
+      subParagraph: "THANK YOU FOR YOUR PATIENCE.",
+
+      footer:
+        "COPYRIGHT 2026 ZIMO GROUP LIMITED. ALL RIGHTS RESERVED.",
+      footerImage: "/ZIMO OFFICIAL LICENSED.svg",
     },
     {
       type: "text",
       bg: "bg-black",
       text: "text-white",
       footer: "ATS",
-      mainImage: "/logo-main-alt.svg", // 🔥 changed image
-      subImage: "/logo-sub.svg", // same or change if needed
+       mainImage: "/ZIMO Logo 26 W.svg",
+      subImage: "/Maintenance Mode W.svg",
+       paragraph: "Scheduled maintenance is currently in progress.",
+      subParagraph: "THANK YOU FOR YOUR PATIENCE.",
+
+      footer:
+        "COPYRIGHT 2026 ZIMO GROUP LIMITED. ALL RIGHTS RESERVED.",
+      footerImage: "/ZIMO OFFICIAL LICENSED W.svg",
     },
   ];
 
@@ -70,7 +81,10 @@ const ScreenManager = () => {
         <MaintenanceScreen
           mainImage={config.mainImage}
           subImage={config.subImage}
+          paragraph={config.paragraph}
+          subParagraph={config.subParagraph}
           footer={config.footer}
+          footerImage={config.footerImage}
         />
       )}
     </main>
