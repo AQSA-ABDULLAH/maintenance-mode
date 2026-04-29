@@ -30,7 +30,7 @@ const ScreenManager = () => {
       subParagraph: "THANK YOU FOR YOUR PATIENCE.",
 
       footer:
-        "COPYRIGHT 2026 ZIMO GROUP LIMITED. ALL RIGHTS RESERVED.",
+        "© COPYRIGHT 2026 ZIMO GROUP LIMITED. ALL RIGHTS RESERVED.",
       footerImage: "/ZIMO OFFICIAL LICENSED.svg",
     },
     {
@@ -43,7 +43,7 @@ const ScreenManager = () => {
       subParagraph: "THANK YOU FOR YOUR PATIENCE.",
 
       footer:
-        "COPYRIGHT 2026 ZIMO GROUP LIMITED. ALL RIGHTS RESERVED.",
+        "©COPYRIGHT 2026 ZIMO GROUP LIMITED. ALL RIGHTS RESERVED.",
       footerImage: "/ZIMO OFFICIAL LICENSED GB B.svg",
     },
     {
@@ -57,7 +57,7 @@ const ScreenManager = () => {
       subParagraph: "THANK YOU FOR YOUR PATIENCE.",
 
       footer:
-        "COPYRIGHT 2026 ZIMO GROUP LIMITED. ALL RIGHTS RESERVED.",
+        "© COPYRIGHT 2026 ZIMO GROUP LIMITED. ALL RIGHTS RESERVED.",
       footerImage: "/ZIMO OFFICIAL LICENSED GB W.svg",
     },
   ];
