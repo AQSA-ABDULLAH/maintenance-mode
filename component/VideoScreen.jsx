@@ -69,13 +69,13 @@ const VideoScreen = ({
       <div className="relative z-10 flex flex-col h-full p-[60px]">
 
         {/* Top Content */}
-        <div className="space-y-[30px] 2xl:space-y-[50px] ">
+        <div className="space-y-[30px] 2xl:space-y-[40px] ">
 
           {mainImage && (
             <img
               src={mainImage}
               alt="Main"
-              className={`w-[238px] h-[40px] object-contain transition-opacity duration-700 ${
+              className={`w-[180px] 2xl:w-[238px] h-[40px] object-contain transition-opacity duration-700 ${
                 step >= 3 ? "opacity-100" : "opacity-0"
               }`}
             />
@@ -85,7 +85,7 @@ const VideoScreen = ({
             <img
               src={subImage}
               alt="Sub"
-              className={`w-[238px] h-[14px] object-contain transition-opacity duration-700 ${
+              className={`w-[180px] 2xl:w-[238px] h-[14px] object-contain transition-opacity duration-700 ${
                 step >= 4 ? "opacity-100" : "opacity-0"
               }`}
             />
@@ -94,13 +94,13 @@ const VideoScreen = ({
 
         {/* Paragraphs */}
         {paragraph && (
-          <p className="text-[12px] 2xl:text-[18px] pt-[80px] 2xl:pt-[197px] uppercase tracking-[2px]">
+          <p className="text-[11px] 2xl:text-[18px] pt-[50px] 2xl:pt-[197px] uppercase tracking-[2px]">
             {step >= 5 ? typedParagraph : ""}
           </p>
         )}
 
         {subParagraph && (
-          <p className="text-[12px] 2xl:text-[18px] pt-[20px] 2xl:pt-[40px] uppercase tracking-[2px]">
+          <p className="text-[11px] 2xl:text-[18px] pt-[15px] 2xl:pt-[40px] uppercase tracking-[2px]">
             {step >= 6 ? typedSubParagraph : ""}
           </p>
         )}
@@ -123,7 +123,7 @@ const VideoScreen = ({
           <img
             src={footerImage}
             alt="Footer Logo"
-            className={`object-contain h-[40px] w-auto transition-opacity duration-700 ${
+            className={`object-contain h-[30px] 2xl:h-[40px] w-auto transition-opacity duration-700 ${
               step >= 2 ? "opacity-100" : "opacity-0"
             }`}
           />
