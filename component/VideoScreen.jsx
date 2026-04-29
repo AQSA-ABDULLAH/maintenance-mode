@@ -69,7 +69,7 @@ const VideoScreen = ({
       <div className="relative z-10 flex flex-col items-center md:items-start h-full py-[30px] md:p-[40px]">
 
         {/* Top Content */}
-        <div className="space-y-[4px] md:space-y-[10px] 2xl:space-y-[40px] ">
+        <div className="space-y-[4px] md:space-y-[10px] 2xl:space-y-[30px] ">
 
           {mainImage && (
             <img
